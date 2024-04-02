@@ -46,6 +46,6 @@ RUN { \
 RUN echo "ServerName localhost" >> /etc/apache2/apache2.conf
 
 # Apache is already set to run in the foreground by the base image
-EXPOSE 80
+EXPOSE 8080 
 EXPOSE 443
 
