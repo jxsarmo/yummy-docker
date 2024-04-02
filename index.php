@@ -29,6 +29,7 @@ $query = $conn->query("SELECT * FROM system_settings limit 1")->fetch_array();
         </div>
       </div>
         <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+          <div style="margin-top: -80px">PHP project by JXS</div>
             <div class="container">
                 <a class="navbar-brand js-scroll-trigger text-primary" href="index.php" >Welcome to <img src="img.model/logomenor.transp.png" alt="" style="width:250px"></a>
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
